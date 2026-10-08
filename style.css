@@ -57,3 +57,4 @@ footer{text-align:center;padding:2rem;color:var(--muted);font-size:.9rem}
 @keyframes float{50%{transform:translateY(-12px)}}
 @media(max-width:800px){.hero{flex-direction:column-reverse;text-align:center;gap:2rem}.nav nav a{margin-left:.9rem}}
 @media(prefers-reduced-motion:reduce){*{animation:none !important;transition:none !important}.reveal{opacity:1;transform:none}.bar i::after{width:var(--w)}}
+@media(max-width:600px){.nav{flex-direction:column;gap:.4rem;padding:.6rem 4%}.nav nav{display:flex;flex-wrap:wrap;justify-content:center;gap:.3rem .9rem}.nav nav a{margin-left:0;font-size:.85rem}}
